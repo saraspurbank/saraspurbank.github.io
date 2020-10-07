@@ -1,0 +1,33 @@
+.deposits h1 {
+    color: rgba(118,0,116,1);
+    font-size: 24px;
+    border-bottom: 3px solid rgba(37,45,120,1);
+}
+
+.deposits h3 {
+    font-size: 20px;
+    color: rgba(118,0,116,1);
+}
+
+.deposits h5 {
+    font-size: 16px;
+}
+
+.deposits h6 {
+    font-size: 14px;
+}
+
+.deposits img {
+    width: 16px;
+    height: 16px;
+    margin-right: 1%;
+}
+
+.deposit-type .btn-deposit {
+    background-color: rgba(37,45,120,1);
+    color: rgba(255,200,0,1);
+}
+
+table tr td {
+    padding: 1% 0%;
+}
