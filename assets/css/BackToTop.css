@@ -4,8 +4,8 @@
 .back-to-top {
     position: fixed;
     display: none;
-    right: 15px;
-    bottom: 15px;
+    right: 10px;
+    bottom: 20px;
     z-index: 1;
 }
 
@@ -25,5 +25,12 @@
     .back-to-top img {
         width: 35px;
         height: 35px;
+    }
+}
+
+@media (max-width: 576px) {
+    .back-to-top {
+        right: 10px;
+        bottom: 60px;
     }
 }
