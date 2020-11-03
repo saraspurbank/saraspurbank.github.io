@@ -10,12 +10,12 @@ function Calculate() {
     
     var today = new Date();
     var endDate = new Date();
-    today.setMonth( today.getMonth() + 1 );
+    // today.setMonth( today.getMonth() + 1 );
     endDate.setMonth( today.getMonth() + month );
 
     document.getElementById("displayAmount").innerHTML = '₹ ' + amount.toFixed(0);
     document.getElementById("displayRate").innerHTML = rate.toFixed(2) + ' %';
-    document.getElementById("displayTimePeriod").innerHTML = today.getDate() + "/" + today.getMonth() + "/" + today.getFullYear() + " - " + endDate.getDate() + "/" + endDate.getMonth() + "/" + endDate.getFullYear();
+    document.getElementById("displayTimePeriod").innerHTML = today.getDate() + "/" + (today.getMonth()+1) + "/" + today.getFullYear() + " - " + endDate.getDate() + "/" + (endDate.getMonth()+1) + "/" + endDate.getFullYear();
     if(emi>=0) {
         document.getElementById("displayEMI").innerHTML = '₹ ' + emi;
         document.getElementById("displayTotalInterest").innerHTML = '₹ ' + interest;

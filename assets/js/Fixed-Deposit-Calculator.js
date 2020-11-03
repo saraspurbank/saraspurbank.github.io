@@ -25,7 +25,7 @@ function Calculate() {
     var seniorCitizenRate = [ 4, 4.5, 5, 5.5, 6.75, 6.5];
 
     var depositDate = new Date();
-    depositDate.setMonth( depositDate.getMonth() + 1 );
+    // depositDate.setMonth( depositDate.getMonth() + 1 );
     var maturityDate = new Date();
     maturityDate.setFullYear( depositDate.getFullYear() + year );
     maturityDate.setMonth( depositDate.getMonth() + month );
@@ -82,7 +82,7 @@ function Calculate() {
     }
 
     document.getElementById("displayRate").innerHTML = rate + ' %';
-    document.getElementById("displayTimePeriod").innerHTML = depositDate.getDate() + "/" + depositDate.getMonth() + "/" + depositDate.getFullYear() + " - " + maturityDate.getDate() + "/" + maturityDate.getMonth() + "/" + maturityDate.getFullYear()
+    document.getElementById("displayTimePeriod").innerHTML = depositDate.getDate() + "/" + (depositDate.getMonth()+1) + "/" + depositDate.getFullYear() + " - " + maturityDate.getDate() + "/" + (maturityDate.getMonth()+1) + "/" + maturityDate.getFullYear()
 
     if(fdType == 1) {
         if(differenceDays<=364) {

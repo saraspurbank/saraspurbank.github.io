@@ -41,6 +41,11 @@ table tr td {
     font-size: 14px;
 }
 
+.pdf img {
+    width: 60px;
+    height: 60px;
+}
+
 
 
 @media (max-width: 1200px) {
