@@ -118,6 +118,24 @@
     display: none;
 }
 
+.navbar-main .highlight {
+    background-color: rgba(118,0,116,1);
+    color: rgba(255,200,0,1);
+    border-radius: 5px;
+}
+
+.navbar-main .highlight:hover {
+    background-color: rgba(37,45,120,1);
+}
+
+.navbar-main .highlight a.nav-link {
+    color: rgba(255,200,0,1);
+}
+
+.navbar-main .highlight a:hover {
+    border-bottom: 0;
+}
+
 
 
 @media (max-width: 1200px) {
@@ -202,6 +220,23 @@
 
     .services-mobile-tab{
         display: block;
+    }
+
+    .navbar-main .highlight,
+    .navbar-main .highlight .dropdown-menu {
+        background-color: rgba(118,0,116,1);
+    }
+
+    .navbar-main .highlight a.nav-link {
+        color: rgba(255,255,0,0.65);
+    }
+
+    .navbar-main .highlight:hover {
+        background-color: rgba(118,0,116,1);
+    }
+
+    .navbar-main .highlight a.nav-link:hover {
+        color: rgba(255,255,0,0.85);
     }
 }
 

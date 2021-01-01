@@ -1,4 +1,4 @@
-.contect-us h1 {
+.contact-us h1 {
     color: rgba(118,0,116,1);
     font-size: 24px;
     border-bottom: 3px solid rgba(37,45,120,1);
@@ -8,26 +8,26 @@ table tr td {
     padding: 1% 0%;
 }
 
-.contect-us h4 {
+.contact-us h4 {
     font-size: 22px;
 }
 
-.contect-us li {
+.contact-us li {
     list-style: none;
 }
 
-.contect-us img {
+.contact-us img {
     width: 16px;
     height: 16px;
     margin-right: 1%;
 }
 
-.contect-us b {
+.contact-us b {
     color: rgba(118,0,116,1);
     font-size: 105%;
 }
 
-.contect-us .row > div {
+.contact-us .row > div {
     padding-top: 2%;
     padding-bottom: 2%;
 }
