@@ -11,13 +11,15 @@
     <link href="assets/img/logo/SNCB_Logo.png" rel="apple-touch-icon">
 
     <!-- Title of the Page -->
-    <title>Saraspur Nagrik Bank | Fixed Deposit Calculator</title>
+    <title>Saraspur Nagrik Bank | UPI</title>
 
     <!-- Link of the CSS File -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/General.css" rel="stylesheet">
     <link href="assets/css/Navbar Main.css" rel="stylesheet">
-    <link href="assets/css/Calculator.css" rel="stylesheet">
+    <link href="assets/css/Carousal.css" rel="stylesheet">
+    <link href="assets/css/Header.css" rel="stylesheet">
+    <link href="assets/css/Services-Tab.css" rel="stylesheet">
     <link href="assets/css/BackToTop.css" rel="stylesheet">
     <link href="assets/css/Footer.css" rel="stylesheet">
 
@@ -134,7 +136,7 @@
                             <img src="assets/img/services/Saraspur_Debit-Card.png" class="mr-0" style="height: 17.5px; width: 27.5px;">
                             RuPay Debit Card
                         </a>
-                        <a class="dropdown-item font-weight-bold" href="UPI.html">
+                        <a class="dropdown-item font-weight-bold" href="#">
                             <img src="assets/svg/UPI-Logo.svg" class="mr-0" style="height: 25px; width: 27.5px;">
                             UPI
                         </a>
@@ -231,147 +233,200 @@
 
 
 
-    <!-- ======= Start Carousal ======= -->
+    <!-- ======= Start Carousal Main ======= -->
     <section class="carousal">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <!-- <ol class="carousel-indicators">
+            <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-            </ol> -->
+                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+            </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/img/carousal/carousal-10.jpg" class="d-block w-100" alt="carousal-7">
+                    <img src="assets/img/carousal/UPI-Poster.png" class="d-block w-100" alt="UPI-Poster">
                     <!-- <div class="carousel-caption d-none d-md-block">
                         <h5>Second slide label</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div> -->
                 </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousal/Mobile-Banking-Poster.png" class="d-block w-100" alt="carousal-2">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div> -->
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousal/Missed-Call-Poster.png" class="d-block w-100" alt="carousal-3">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div> -->
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousal/carousal-1.png" class="d-block w-100" alt="carousel-1">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div> -->
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousal/carousal-2.png" class="d-block w-100" alt="carousal-2">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div> -->
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousal/carousal-3.png" class="d-block w-100" alt="carousal-3">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div> -->
+                </div>
             </div>
-            <!-- <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
-            </a> -->
+            </a>
         </div>
     </section>
-    <!-- ======= End Carousal ======= -->
+    <!-- ====== End Carousal Main ====== -->
 
 
 
-    <!-- ======= Start Fixed Deposit Calculator ======= -->
-    <section class="fd-calculator" ng-app="fd-calculator">
-        <div class="container-fluid" ng-controller="myCtrl">
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-lg-7 col-md-9 col-sm-12 col-12">
-                    <form>
-                        <div class="row justify-content-center">
-                            <div class="col-12 text-white">
-                                <div class="row">
-                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mb-md-3 mb-sm-1 mb-1 mt-md-3 mt-2"><b>Type of Customer : </b></div>
-                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 my-md-3 my-sm-1 my-1"><input type="radio" name="customerType" value="normal" onchange="Calculate()" checked> Normal</div>
-                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 my-md-3 my-sm-1 my-1"><input type="radio" name="customerType" value="seniorCitizen" onchange="Calculate()"> Senior Citizen</div>
-                                </div>
-                            </div>
-                            <div class="col-12 text-white">
-                                <div class="row">
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-md-3 mb-sm-1 mb-1 mt-2"><b>Type of Fixed Deposit : </b></div>
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 my-md-2 my-sm-1 my-1">
-                                        <select name="fd-type" id="fd-type" class="w-100" onchange="Calculate()" required>
-                                            <option selected disabled value="">--Type of FD--</option>
-                                            <option value="1">Compounding</option>
-                                            <option value="2">Quaterly Payout</option>
-                                            <option value="3">Monthly Payout</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 text-white mt-2">
-                                <div class="row">
-                                    <div class="col-6 my-3"><b>Amount Deposit (₹) :  </b></div>
-                                    <div class="col-6 my-2"><input type="text" placeholder="Amount (₹)" class="w-100" pattern="^[0-9]+\.?[0-9]*$" id="amount" onchange="Calculate()" required></div>
-                                </div>
-                            </div>
-                            <div class="col-12 text-white">
-                                <div class="row">
-                                    <div class="col-3 col-sm-3 col-12 mb-md-3 mb-sm-1 mb-1 mt-md-3 mt-2"><b>Tenure :  </b></div>
-                                    <div class="col-sm-3 col-4 my-md-3 my-sm-1 my-1">
-                                        <select name="year" id="year" class="w-100" onchange="Calculate()" ng-model="year">
-                                            <option value="" selected disabled>Year</option>
-                                            <option ng-repeat="x in yearValue" value="{{x}}">{{x}}</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-sm-3 col-4 my-md-3 my-sm-1 my-1">
-                                        <select name="month" id="month" class="w-100" onchange="Calculate()" ng-model="month">
-                                            <option value="" selected disabled>Month</option>
-                                            <option value="0">0</option>
-                                            <option ng-if="year!=3" ng-repeat="x in monthValue" value="{{x}}">{{x}}</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-sm-3 col-4 my-md-3 my-sm-1 my-1">
-                                        <input type="text" id="day" class="w-100" placeholder="Days" pattern="^[0-9]{1,3}$" onchange="Calculate()" ng-if="(month==0 && year==0) || (month==null && year==null) || (month==0 && year==null) || (month==null && year==0)" ng-model="day" required>
-                                        <select name="day" id="day" ng-model="day" onchange="Calculate()" ng-if="month>0 || year>0">
-                                            <option value="" selected disabled>Day</option>
-                                            <option value="0">0</option>
-                                            <option ng-if="year!=3" ng-repeat="x in dayValue" value="{{x}}">{{x}}</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 text-center mt-4">
-                                <input type="submit" value="Calculate" class="btn btn-success font-weight-bold mr-2" onclick="Calculate()">
-                                <input type="reset" class="btn btn-warning font-weight-bold ml-2">
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-9 col-sm-12 col-12 text-white mt-xl-2 mt-lg-2 mt-md-5 mt-sm-5 mt-5 mb-5">
-                    <div class="row justify-content-center statement">
-                        <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 mt-5">
-                            <div class="row">
-                                <div class="col-8"><b>Deposit Amount</b></div>
-                                <div class="col-4"><span id="displayAmount"></span></div>
-                            </div>
-                        </div>
-                        <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 mt-3">
-                            <div class="row">
-                                <div class="col-8"><b>Rate of Interest</b></div>
-                                <div class="col-4"><span id="displayRate"></span></div>
-                            </div>
-                        </div>
-                        <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 mt-3">
-                            <div class="row">
-                                <div class="col-8"><b>Time Period</b></div>
-                                <div class="col-4"><span id="displayTimePeriod"></span></div>
-                            </div>
-                        </div>
-                        <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 mt-3">
-                            <div class="row">
-                                <div class="col-8"><b>Interest</b></div>
-                                <div class="col-4"><span id="displayInterest"></span></div>
-                            </div>
-                        </div>
-                        <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 mt-3">
-                            <div class="row">
-                                <div class="col-8"><b>Total Maturity Amount</b></div>
-                                <div class="col-4"><span id="displayMaturityAmount"></span></div>
-                            </div>
-                        </div>
-                        <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
-                            <p class="note mt-3">* This Calculator will calculate approximate value. Actual value will be given by the Bank.</p>
-                            <p id="displayError" class="text-danger mt-3 mb-5"></p>
-                        </div>
-                    </div>
+    <!-- ======= Start Header of the Home page ======= -->
+    <!-- Bank Name with Logo -->
+    <section class="header">
+        <!-- <div class="d-flex justify-content-center pt-4 pb-2">
+            <img src="assets/img/SNCB_Logo.png">
+            <div class="text-center">
+                <h2 class="font-weight-bold">Saraspur Nagarik Co.Operative Bank Ltd.</h2>
+                <h5 class="text-black font-weight-bold">ESTD. 1968</h5>
+                <h5 class="text-black font-weight-bold">આપણી “સરસ” સહકારી બેંક</h5>
+            </div>
+        </div> -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="font-weight-bold">Recent Announcement :</h3>
+                    <marquee direction="up" scrolldelay="0" scrollamount="2" class="d-flex">
+                        <table class="w-100">
+                            <tr>
+                                <td width="10%" class="text-center py-2 align-top"><img src="assets/svg/Bullet-3Circle.svg"></td>
+                                <td width="90%"><a href="UPI.html" class="text-danger font-weight-bold">UPI Facility is now Available</a></td>
+                            </tr>
+                            <tr>
+                                <td class="text-center py-2 align-top"><img src="assets/svg/Bullet-3Circle.svg"></td>
+                                <td><a href="Advances-Rate.html">Advances Rates are changed Please Check</a></td>
+                            </tr>
+                            <tr>
+                                <td width="10%" class="text-center pb-2 align-top"><img src="assets/svg/Bullet-3Circle.svg"></td>
+                                <td width="90%"><a href="#">Email Statement Service for Daily, Weekly and Monthly Statement.</a></td>
+                            </tr>
+                            <tr>
+                                <td width="10%" class="text-center pb-2 align-top"><img src="assets/svg/Bullet-3Circle.svg"></td>
+                                <td width="90%"><a href="#">Started Telegram Banking ( For further information please contact to your home branch )</a></td>
+                            </tr>
+                            <tr>
+                                <td width="10%" class="text-center pb-2 align-top"><img src="assets/svg/Bullet-3Circle.svg"></td>
+                                <td width="90%"><a href="Advances-Rate.html">Solar System Loan</a></td>
+                            </tr>
+                            <tr>
+                                <td width="10%" class="text-center pb-2 align-top"><img src="assets/svg/Bullet-3Circle.svg"></td>
+                                <td width="90%"><a href="Advances-Rate.html">Loan Against Property</a></td>
+                            </tr>
+                        </table>
+                    </marquee>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ======= End Fixed Deposit Calculator ======= -->
+    <!-- ======= End Header of the Home Page ======= -->
+
+
+    
+    <!-- ====== Start UPI Facility ====== -->
+    <section class="services-tab py-5" id="upi">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="font-weight-bold py-3">UPI Facility</h1>
+                </div>
+            </div>
+            <div class="row mt-5 justify-content-center">
+                <div class="col">
+                    <h4>
+                        <table class="w-100">
+                            <tr>
+                                <td width="10%" class="text-center align-top"><img src="assets/svg/Bullet-Tick.svg"></td>
+                                <td width="90%">Saraspur Nagrik Co. Operative Bank is live on UPI issuer mode, now Saraspur Nagrik Co. Operative Bank customers can link their Saving or Current accounts to  UPI applications like BHIM, Phone-Pe, Google-Pay, PayTM, Freecharge and many more which provides UPI facility</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center align-top"><img src="assets/svg/Bullet-Tick.svg"></td>
+                                <td>Customer mobile number must be updated at customer and account level to link his/her accounts, also to set UPI PIN customer needs active Debit Card linked to his/her accounts.</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center align-top"><img src="assets/svg/Bullet-Tick.svg"></td>
+                                <td>After registration/setting upi pin customer can do first transaction upto Rs. 5,000 and after 24 hours of first transaction, transaction limit is Rs. 60,000 per day.</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center align-top"><img src="assets/svg/Bullet-Tick.svg"></td>
+                                <td>For any queries/issues regarding UPI : </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <table class="w-100 mt-0">
+                                        <tr>
+                                            <td class="text-center align-top" width="50px"><img src="assets/svg/Bullet-Circle-Ok.svg"></td>
+                                            <td width="150px">Email Us</td>
+                                            <td width="20px">:</td>
+                                            <td><a href="mailto:helpdesk@saraspurbank.in">helpdesk@saraspurbank.in</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center align-top"><img src="assets/svg/Bullet-Circle-Ok.svg"></td>
+                                            <td class="align-top">Contact Us</td>
+                                            <td class="align-top">:</td>
+                                            <td>
+                                                1, Darshan Society,<br>
+                                                Commerce-Stadium Road,<br>
+                                                Navrangpura, Ahmedabad-380009.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center align-top"><img src="assets/svg/Bullet-Circle-Ok.svg"></td>
+                                            <td class="align-top">Phone No 1</td>
+                                            <td class="align-top">:</td>
+                                            <td>
+                                                <a href="tel:079-26569376">079-26569376</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center align-top"><img src="assets/svg/Bullet-Circle-Ok.svg"></td>
+                                            <td class="align-top">Phone No 2</td>
+                                            <td class="align-top">:</td>
+                                            <td>
+                                                <a href="tel:079-26461630">079-26461630</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== End UPI Facility ====== -->
 
 
 
@@ -401,13 +456,12 @@
 
     <!-- ====== Vendor JS File ====== -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="assets/vendor/angularjs/angular.min.js"></script>
 
     <!-- Scripts -->
-    <script src="assets/js/Fixed-Deposit-Calculator.js"></script>
     <script src="assets/js/SmoothScroll.js"></script>
     <script src="assets/js/BackToTopButton.js"></script>
 
