@@ -1,0 +1,296 @@
+.history h1,
+.guiding-principles h1,
+.board-of-directors h1,
+.financial-strength h1,
+.financial-growth h1,
+.contect-us h1 {
+    color: rgba(118,0,116,1);
+    border-bottom: 5px solid rgba(37,45,120,1);
+}
+
+.financial-growth h3 {
+    color: rgba(118,0,116,1);
+}
+
+.financial-growth h4 {
+    color: rgba(37,45,120,1);
+}
+
+table tr td {
+    padding-top: 2%;
+}
+
+.history li,
+.guiding-principles li,
+.board-of-directors li,
+.financial-strength li,
+.financial-growth li,
+.contect-us li {
+    list-style: none;
+}
+
+.guiding-principles img,
+.board-of-directors img,
+.financial-strength img,
+.financial-growth img,
+.contect-us img {
+    width: 25px;
+    height: 25px;
+    margin-right: 1%;
+}
+
+.board-of-directors-photo .card {
+    width: 18rem;
+}
+
+.board-of-directors-photo .card:hover {
+    animation-name: transform;
+    animation-duration: 500ms;
+    transform: scale(1.1);
+}
+
+.board-of-directors-photo img {
+    width: 200px;
+    height: 200px;
+}
+
+.financial-growth table {
+    font-size: 18px;
+}
+
+.contect-us b {
+    color: rgba(118,0,116,1);
+    font-size: 105%;
+}
+.contect-us .row > div {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+@keyframes transform {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    .financial-growth h3 {
+        font-size: 28px;
+    }
+
+    .history h4,
+    .guiding-principles h4,
+    .board-of-directors h4,
+    .financial-strength h4 {
+        font-size: 22px;
+    }
+
+    .financial-growth h6 {
+        font-size: 14px;
+    }
+
+    .guiding-principles img,
+    .board-of-directors img,
+    .financial-strength img,
+    .financial-growth img,
+    .contect-us img {
+        width: 22px;
+        height: 22px;
+        margin-right: 1%;
+    }
+
+    .board-of-directors-photo .card{
+        width: 18rem;
+    }
+
+    .board-of-directors-photo img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .board-of-directors-photo h4{
+        font-size: 22px;
+    }
+
+    .board-of-directors-photo h5{
+        font-size: 20px;
+    }
+
+    .financial-growth table {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .history h1,
+    .guiding-principles h1,
+    .board-of-directors h1,
+    .financial-strength h1,
+    .financial-growth h1,
+    .contect-us h1 {
+        font-size: 32px;
+    }
+
+    .financial-growth h3 {
+        font-size: 26px;
+    }
+
+    .history h4,
+    .guiding-principles h4,
+    .board-of-directors h4,
+    .financial-strength h4,
+    .financial-growth h4 {
+        font-size: 20px;
+    }
+
+    .financial-growth h6 {
+        font-size: 12px;
+    }
+
+    .guiding-principles img,
+    .board-of-directors img,
+    .financial-strength img,
+    .financial-growth img,
+    .contect-us img {
+        width: 20px;
+        height: 20px;
+        margin-right: 1%;
+    }
+
+    .board-of-directors-photo .card{
+        width: 14rem;
+    }
+
+    .board-of-directors-photo img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .board-of-directors-photo h4{
+        font-size: 20px;
+    }
+
+    .board-of-directors-photo h5{
+        font-size: 18px;
+    }
+
+    .financial-growth table {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .financial-growth h3 {
+        font-size: 24px;
+    }
+
+    .history h4,
+    .guiding-principles h4,
+    .board-of-directors h4,
+    .financial-strength h4,
+    .financial-growth h4 {
+        font-size: 18px;
+    }
+
+    .financial-growth h6 {
+        font-size: 10px;
+    }
+
+    .guiding-principles img,
+    .board-of-directors img,
+    .financial-strength img,
+    .financial-growth img,
+    .contect-us img {
+        width: 18px;
+        height: 18px;
+        margin-right: 1%;
+    }
+
+    .board-of-directors-photo .card{
+        width: 14rem;
+    }
+
+    .board-of-directors-photo img{
+        width: 125px;
+        height: 125px;
+    }
+
+    .board-of-directors-photo h4{
+        font-size: 18px;
+    }
+
+    .board-of-directors-photo h5{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .history h1,
+    .guiding-principles h1,
+    .board-of-directors h1,
+    .financial-strength h1,
+    .financial-growth h1,
+    .contect-us h1 {
+        font-size: 28px;
+    }
+
+    .financial-growth h3 {
+        font-size: 22px;
+    }
+
+    .history h4,
+    .guiding-principles h4,
+    .board-of-directors h4,
+    .financial-strength h4,
+    .financial-growth h4 {
+        font-size: 16px;
+    }
+
+    .financial-growth h6 {
+        font-size: 8px;
+    }
+
+    .guiding-principles img,
+    .board-of-directors img,
+    .financial-strength img,
+    .contect-us img {
+        width: 16px;
+        height: 16px;
+        margin-right: 1%;
+    }
+
+    .financial-growth img {
+        width: 13px;
+        height: 13px;
+    }
+
+    .board-of-directors-photo .card{
+        width: 13rem;
+    }
+
+    .board-of-directors-photo img{
+        width: 125px;
+        height: 125px;
+    }
+
+    .board-of-directors-photo h4{
+        font-size: 16px;
+    }
+
+    .board-of-directors-photo h5{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 420px) {
+    .board-of-directors-photo .card{
+        width: 9.5rem;
+    }
+}
