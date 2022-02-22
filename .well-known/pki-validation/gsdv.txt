@@ -1,2 +1,0 @@
-globalsign-domain-verification=mAKKB8XFjGON2eZDJia3qipZNmzrR0cOnRCwkwWIOS
-
