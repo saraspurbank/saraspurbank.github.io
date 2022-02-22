@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="circle_ok 1">
+<circle id="Ellipse 1" cx="32" cy="32" r="27" fill="white"/>
+<g id="CIRCLE  x2F  OK 1">
+<g id="CIRCLE  x2F  OK">
+<g id="Group">
+<path id="Vector" d="M46 43.001C46 43 46 43 46 42.999V43.001ZM46 20.999V21.001C46 21.001 46 21 46 20.999C46 21 46 21 46 20.999ZM44 21C43.172 21 42.422 21.336 41.879 21.879L28 35.758L21.121 28.879C20.578 28.336 19.828 28 19 28C17.343 28 16 29.343 16 31C16 31.828 16.336 32.578 16.879 33.121L25.879 42.121C26.422 42.664 27.172 43 28 43C28.828 43 29.578 42.664 30.121 42.121L46.121 26.121C46.664 25.579 47 24.828 47 24C47 22.343 45.657 21 44 21ZM32 0C14.327 0 0 14.327 0 32C0 49.673 14.327 64 32 64C49.673 64 64 49.673 64 32C64 14.327 49.673 0 32 0ZM32 58C17.641 58 6 46.359 6 32C6 17.64 17.641 6 32 6C46.359 6 58 17.64 58 32C58 46.359 46.359 58 32 58Z" fill="url(#paint0_linear)"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="32" y1="0" x2="32" y2="64" gradientUnits="userSpaceOnUse">
+<stop stop-color="#760074"/>
+<stop offset="1" stop-color="#1B1464"/>
+</linearGradient>
+</defs>
+</svg>
