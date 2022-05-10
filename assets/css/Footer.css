@@ -1,0 +1,13 @@
+footer {
+    font-size: 10px;
+    background-color: rgba(37,45,120,1);
+    color: white;
+}
+
+footer a {
+    color: rgba(255,200,0,1);
+}
+
+footer a:hover {
+    color: rgba(255,200,0,1);
+}

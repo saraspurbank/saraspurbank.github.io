@@ -1,0 +1,57 @@
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 20px;
+    bottom: 40px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0rem 0.75rem 1rem rgba(0,0,0,.25)!important;
+}
+
+.back-to-top img {
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 1375px) {
+    .back-to-top {
+        position: fixed;
+        display: none;
+        right: 20px;
+        bottom: 60px;
+    }
+    .back-to-top img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .back-to-top {
+        position: fixed;
+        display: none;
+        right: 20px;
+        bottom: 60px;
+    }
+    .back-to-top img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .back-to-top {
+        position: fixed;
+        display: none;
+        right: 20px;
+        bottom: 100px;
+    }
+    .back-to-top img {
+        width: 30px;
+        height: 30px;
+    }
+}
