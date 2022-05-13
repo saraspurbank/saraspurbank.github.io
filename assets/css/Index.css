@@ -1,0 +1,342 @@
+.services .card{
+    /* background-color: black; */
+    width: 18rem;
+}
+
+.services h1{
+    font-size: 28px;
+    color: rgba(118,0,116,1);
+    border-bottom: 5px solid rgba(37,45,120,1);
+}
+
+.core-banking-system img,
+.rtgs img,
+.e-payment img,
+.locker img,
+.net-banking img,
+.mobile-app img,
+.missed-call img,
+.stamp-franking img,
+.unclimed-deposits img,
+.death-claim-form img,
+.bbps img,
+.emi-calculator img,
+.fd-calculator img,
+.interest-rates img {
+    width: 75px;
+    height: 75px;
+}
+
+.rupay-debit-card img,
+.upi img {
+    width: 115px;
+    height: 75px;
+}
+
+.services .card h4 {
+    font-size: 18px;
+    color: rgba(37,45,120,1);
+}
+
+.services .card:hover {
+    animation-name: transform;
+    animation-duration: 500ms;
+    transform: scale(1.2);
+}
+
+@keyframes transform {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.card a:hover{
+    color: transparent;
+}
+
+
+
+@media (max-width: 1200px) {
+    .core-banking-system img,
+    .rtgs img,
+    .e-payment img,
+    .locker img,
+    .net-banking img,
+    .mobile-app img,
+    .missed-call img,
+    .stamp-franking img,
+    .unclimed-deposits img,
+    .death-claim-form img,
+    .bbps img,
+    .emi-calculator img,
+    .fd-calculator img,
+    .interest-rates img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .rupay-debit-card img,
+    .upi img {
+        width: 95px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 992px) {
+    .services h1{
+        font-size: 26px;
+        border-bottom: 4.5px solid rgba(37,45,120,1);
+    }
+
+    .services .card{    
+        max-width: 14rem;
+    }
+
+    .core-banking-system img,
+    .rtgs img,
+    .e-payment img,
+    .locker img,
+    .net-banking img,
+    .mobile-app img,
+    .missed-call img,
+    .stamp-franking img,
+    .unclimed-deposits img,
+    .death-claim-form img,
+    .bbps img,
+    .emi-calculator img,
+    .fd-calculator img,
+    .interest-rates img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .rupay-debit-card img,
+    .upi img {
+        width: 85px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .services h1{
+        font-size: 24px;
+        border-bottom: 4px solid rgba(37,45,120,1);
+    }
+
+    .services .card{    
+        max-width: 14rem;
+    }
+
+    .core-banking-system img,
+    .rtgs img,
+    .e-payment img,
+    .locker img,
+    .net-banking img,
+    .mobile-app img,
+    .missed-call img,
+    .stamp-franking img,
+    .unclimed-deposits img,
+    .death-claim-form img,
+    .bbps img,
+    .emi-calculator img,
+    .fd-calculator img,
+    .interest-rates img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .rupay-debit-card img,
+    .upi img {
+        width: 90px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .services h1{
+        font-size: 22px;
+        border-bottom: 3.5px solid rgba(37,45,120,1);
+    }
+
+    .services .card{    
+        max-width: 13rem;
+    }
+    
+    .core-banking-system img,
+    .rtgs img,
+    .e-payment img,
+    .locker img,
+    .net-banking img,
+    .mobile-app img,
+    .missed-call img,
+    .stamp-franking img,
+    .unclimed-deposits img,
+    .death-claim-form img,
+    .bbps img,
+    .emi-calculator img,
+    .fd-calculator img,
+    .interest-rates img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .rupay-debit-card img,
+    .upi img {
+        width: 90px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 420px) {
+    .services .card{    
+        max-width: 9.5rem;
+    }
+
+    .services .card h4 {
+        font-size: 16px;
+    }
+
+    .core-banking-system img,
+    .rtgs img,
+    .e-payment img,
+    .locker img,
+    .net-banking img,
+    .mobile-app img,
+    .missed-call img,
+    .stamp-franking img,
+    .unclimed-deposits img,
+    .death-claim-form img,
+    .bbps img,
+    .emi-calculator img,
+    .fd-calculator img,
+    .interest-rates img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .rupay-debit-card img,
+    .upi img {
+        width: 70px;
+        height: 50px;
+    }
+}
+
+
+
+.calculator .card{
+    /* background-color: black; */
+    width: 18rem;
+}
+
+.calculator h1{
+    font-size: 28px;
+    color: rgba(118,0,116,1);
+    border-bottom: 5px solid rgba(37,45,120,1);
+}
+
+.calculator img {
+    width: 75px;
+    height: 75px;
+}
+
+
+.calculator .card h4 {
+    font-size: 18px;
+    color: rgba(37,45,120,1);
+}
+
+.calculator .card:hover {
+    animation-name: transform;
+    animation-duration: 500ms;
+    transform: scale(1.2);
+}
+
+@keyframes transform {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.card a:hover{
+    color: transparent;
+}
+
+
+
+@media (max-width: 1200px) {
+    .calculator img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 992px) {
+    .calculator h1{
+        font-size: 26px;
+        border-bottom: 4.5px solid rgba(37,45,120,1);
+    }
+
+    .calculator .card{    
+        max-width: 14rem;
+    }
+
+    .calculator img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .calculator h1{
+        font-size: 24px;
+        border-bottom: 4px solid rgba(37,45,120,1);
+    }
+
+    .calculator .card{    
+        max-width: 14rem;
+    }
+
+    .calculator img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .calculator h1{
+        font-size: 22px;
+        border-bottom: 3.5px solid rgba(37,45,120,1);
+    }
+
+    .calculator .card{    
+        max-width: 13rem;
+    }
+
+    .calculator img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 420px) {
+    .calculator .card{    
+        max-width: 9.5rem;
+    }
+
+    .calculator .card h4 {
+        font-size: 16px;
+    }
+
+    .calculator img {
+        width: 50px;
+        height: 50px;
+    }
+}
