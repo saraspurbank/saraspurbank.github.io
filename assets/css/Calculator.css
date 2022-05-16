@@ -1,0 +1,143 @@
+section.carousal {
+    position: fixed;
+    top: 101px;
+    width: 100%;
+    background-color: black;
+    z-index: -1;
+}
+
+.carousal img {
+    opacity: 0.15;
+    height: calc(100vh - 101px);
+}
+
+.emi-calculator,
+.fd-calculator {
+    margin-top: 125px;
+    font-size: 16px;
+}
+
+.emi-calculator input[type="text"],
+.fd-calculator input[type="text"] {
+    font-size: 16px;
+    color: white;
+    padding: 5px 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px white solid;
+    width: 100%;
+}
+
+.emi-calculator input[type="text"]:focus,
+.fd-calculator input[type="text"]:focus,
+select:focus {
+    outline: none;
+}
+
+.emi-calculator input[type="text"]:invalid,
+.fd-calculator input[type="text"]:invalid {
+    border: 2px #dc3545 solid;
+}
+
+.emi-calculator input[type="text"]:valid,
+.fd-calculator input[type="text"]:valid {
+    border: 2px #28a745 solid;
+}
+
+.emi-calculator input[type="radio"],
+.fd-calculator input[type="radio"] {
+    font-size: 200px;
+}
+
+.emi-calculator select,
+.fd-calculator select {
+    font-size: 14px;
+    color: black;
+    height: 35px;
+    border-radius: 10px;
+    border: 0px white solid;
+    width: 100%;
+}
+
+.emi-calculator input[type="submit"], .emi-calculator input[type="reset"],
+.fd-calculator input[type="submit"], .fd-calculator input[type="reset"] {
+    font-size: 18px;
+    padding: 3px 30px;
+}
+
+.statement {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+}
+
+.statement b {
+    color: rgba(255,200,0,1);
+}
+
+.statement .note {
+    font-size: 10px;
+}
+
+
+@media (max-width: 1200px) {
+}
+
+
+
+@media (max-width: 992px) {
+}
+
+
+
+@media (max-width: 768px) {
+    .emi-calculator input[type="text"],
+    .fd-calculator input[type="text"] {
+        width: 90%;
+    }
+
+    .statement {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .emi-calculator select,
+    .fd-calculator select {
+        height: 40px;
+        width: 90%;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    section.carousal {
+        top: 62px;
+    }
+    
+    .carousal img {
+        opacity: 0.25;
+        height: calc(100vh - 62px);
+    }
+
+    .emi-calculator,
+    .fd-calculator {
+        margin-top: 80px;
+    }
+
+    .emi-calculator select,
+    .fd-calculator select {
+        height: 37.5px;
+        width: 90%;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    .emi-calculator select,
+    .fd-calculator select {
+        height: 35px;
+        width: 90%;
+    }
+}
