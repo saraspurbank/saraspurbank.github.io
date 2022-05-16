@@ -21,8 +21,8 @@ function Calculate() {
     var maturityAmount = 0;
     var interest = 0;
 
-    var generalRate = [ 4, 4.5, 5, 5.5, 6.25, 6];
-    var seniorCitizenRate = [ 4, 4.5, 5, 5.5, 6.75, 6.5];
+    var generalRate = [ 3.5, 3.75, 4.5, 5, 6, 5.75];
+    var seniorCitizenRate = [ 3.5, 3.75, 4.5, 5, 6.5, 6.25];
 
     var depositDate = new Date();
     // depositDate.setMonth( depositDate.getMonth() + 1 );

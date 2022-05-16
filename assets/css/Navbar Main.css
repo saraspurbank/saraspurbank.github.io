@@ -118,6 +118,47 @@
     display: none;
 }
 
+.navbar-main .highlight {
+    background-color: rgba(118,0,116,1);
+    color: rgba(255,200,0,1);
+    border-radius: 5px;
+}
+
+.navbar-main .highlight:hover {
+    background-color: rgba(37,45,120,1);
+}
+
+.navbar-main .highlight a.nav-link {
+    color: rgba(255,200,0,1);
+}
+
+.navbar-main .highlight a:hover {
+    border-bottom: 0;
+}
+
+.navbar-main .notification {
+    background: none;
+}
+
+.navbar-main .notification a svg {
+    color: rgba(118,0,116,1);
+}
+
+.navbar-main .notification a span {
+    position: absolute;
+    background-color: rgba(37,45,120,1);
+    color: rgba(255,200,0,1);
+    font-size: 8px;
+    padding: 2px 5px;
+    left: 25px;
+    top: 0px;
+}
+
+.navbar-main .notification a:hover {
+    animation: none;
+    border-bottom: 0;
+}
+
 
 
 @media (max-width: 1200px) {
@@ -162,6 +203,7 @@
 
     .navbar-main ul > li > a:hover {
         background-color: transparent;
+        animation: none;
         display: block;
         color: rgba(255,255,0,0.85);
         border-bottom: 0px;
@@ -202,6 +244,33 @@
 
     .services-mobile-tab{
         display: block;
+    }
+
+    .navbar-main .highlight,
+    .navbar-main .highlight .dropdown-menu {
+        background-color: rgba(118,0,116,1);
+    }
+
+    .navbar-main .highlight a.nav-link {
+        color: rgba(255,255,0,0.65);
+    }
+
+    .navbar-main .highlight:hover {
+        background-color: rgba(118,0,116,1);
+    }
+
+    .navbar-main .highlight a.nav-link:hover {
+        color: rgba(255,255,0,0.85);
+    }
+
+    .navbar-main .notification a svg {
+        color: rgba(255,255,0,1);
+    }
+    
+    .navbar-main .notification a span {
+        background-color: rgba(118,0,116,1);
+        left: 60px;
+        top: 3px;
     }
 }
 
@@ -258,5 +327,11 @@
 
     .about-us-dropdown a {
         margin-left: 8%;
+    }
+
+    .navbar-main .notification a span {
+        background-color: rgba(118,0,116,1);
+        left: 50px;
+        top: 3px;
     }
 }

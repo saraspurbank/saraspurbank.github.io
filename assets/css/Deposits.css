@@ -1,3 +1,11 @@
+.mt-6 {
+    margin-top: 5rem!important
+}
+
+.mt-7 {
+    margin-top: 6rem!important
+}
+
 .deposits h1 {
     color: rgba(118,0,116,1);
     font-size: 24px;

@@ -10,6 +10,9 @@
     opacity: 1;
 }
 
+.carousal ol li {    
+    background-color: black
+}
 
 
 @media (max-width: 1200px) {
