@@ -1,0 +1,37 @@
+.financial-growth h1 {
+    color: rgba(118,0,116,1);
+    font-size: 24px;
+    border-bottom: 3px solid rgba(37,45,120,1);
+}
+
+.financial-growth h3 {
+    font-size: 20px;
+    color: rgba(118,0,116,1);
+}
+
+.financial-growth h4 {
+    font-size: 16px;
+    color: rgba(37,45,120,1);
+}
+
+.chart-heading {
+    color: rgba(118,0,116,1);
+}
+
+table tr td {
+    padding: 1% 0%;
+}
+
+.financial-growth li {
+    list-style: none;
+}
+
+.financial-growth img {
+    width: 16px;
+    height: 16px;
+    margin-right: 1%;
+}
+
+.financial-growth table {
+    font-size: 14px;
+}
