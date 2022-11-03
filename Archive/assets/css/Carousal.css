@@ -1,0 +1,40 @@
+.carousal {
+    background-color: black;
+    width: 55%;
+    margin-top: 142px;
+    margin-left: 50px;
+}
+
+.carousal img{
+    height: 45vh;
+    opacity: 1;
+}
+
+.carousal ol li {    
+    background-color: black
+}
+
+
+@media (max-width: 1200px) {
+    .carousal {
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+    
+    .carousal img{
+        height: 60vh;
+        opacity: 0.75;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousal {
+        margin-top: 61px;
+    }
+
+    .carousal img{
+        height: 45vh;
+        opacity: 0.75;
+    }
+}
