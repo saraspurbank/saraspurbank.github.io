@@ -1,0 +1,77 @@
+// Angular Material Overrides
+// ----------------------------
+// Used When Slider is Normal
+// ----------------------------
+.mat-slider {
+    .mat-slider-wrapper {
+        .mat-slider-track-wrapper {
+            .mat-slider-track-fill {
+                background-color: rgba(118, 0, 116, 1) !important;
+            }
+        }
+        .mat-slider-thumb-container {
+            .mat-slider-thumb-label {
+                width: 32px !important;
+                height: 32px !important;
+                top: -45px !important;
+                .mat-slider-thumb-label-text {
+                    color: white;
+                }
+            }
+
+            // Display Thumb Label All the Time
+            .mat-slider-thumb-label {
+                transform: rotate(45deg) !important;
+                background-color: rgba(118, 0, 116, 1) !important;
+                border-radius: 50% 50% 0 !important;
+                .mat-slider-thumb-label-text {
+                    opacity: 1 !important;
+                }
+            }
+            .mat-slider-thumb {
+                transform: scale(0) !important;
+            }
+        }
+    }
+}
+
+.mat-form-field {
+    &.mat-focused {
+        .mat-form-field-underline {
+            .mat-form-field-ripple {
+                background-color: rgba(118, 0, 116, 1) !important;
+            }
+        }
+        .mat-form-field-label {
+            color: rgba(118, 0, 116, 1) !important;
+        }
+    }
+}
+
+.mat-option {
+    &.mat-selected {
+        .mat-option-text {
+            color: rgba(118, 0, 116, 1) !important;
+        }
+    }
+}
+
+.mat-radio-button {
+    .mat-radio-outer-circle {
+        border-color: rgba(118, 0, 116, 1) !important;
+    }
+    .mat-radio-inner-circle {
+        background-color: rgba(118, 0, 116, 1) !important;
+    }
+}
+
+.mat-button {
+    &.mat-primary {
+        color: rgba(118, 0, 116, 1) !important;
+    }
+}
+.mat-raised-button {
+    &.mat-primary {
+        background-color: rgba(118, 0, 116, 1) !important;
+    }
+}
